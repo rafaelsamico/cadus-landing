@@ -4,8 +4,6 @@ import AuthHero from "@/components/sections/AuthHero"
 
 const theme = {
   section: "bg-(--mata-100)",
-  border: "border-(--mata-200)!",
-  divider: "bg-(--mata-200)!",
   title: "Cadus para\npacientes",
   title_color: "text-(--mata-900)",
   subtitle: "Faça os pré-cadastros para as clínicas-escola.",
@@ -20,11 +18,11 @@ const theme = {
 export default function Pacientes() {
   return (
     <>
-      <Header theme={theme} />
+      <Header />
       <main>
         <AuthHero theme={theme} />
       </main>
-      <Footer theme={theme} />
+      <Footer />
     </>
   )
 }

@@ -15,6 +15,9 @@ dist-ssr
 # Scratch file for multi-line commit messages (git commit -F .gitmessage)
 .gitmessage
 
+# Claude Code local config
+.claude/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

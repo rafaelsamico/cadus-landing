@@ -2,11 +2,9 @@ import Header from "@/components/layout/Header"
 import Footer from "@/components/layout/Footer"
 import AuthHero from "@/components/sections/AuthHero"
 
-// Tema da página (barro). Compartilhado entre header, hero e footer.
+// Tema da seção de entrada (barro).
 const theme = {
   section: "bg-(--barro-100)",
-  border: "border-(--barro-200)!",
-  divider: "bg-(--barro-200)!",
   title: "Cadus para\nprofissionais",
   title_color: "text-(--barro-900)",
   subtitle: "Gerencie os pré-cadastros da sua clínica-escola.",
@@ -21,11 +19,11 @@ const theme = {
 export default function Profissionais() {
   return (
     <>
-      <Header theme={theme} />
+      <Header />
       <main>
         <AuthHero theme={theme} />
       </main>
-      <Footer theme={theme} />
+      <Footer />
     </>
   )
 }
